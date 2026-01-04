@@ -9,6 +9,17 @@ public class Main {
         Subclass objChild = new Subclass();
         objChild.printName();
         objChild.gamravleba(5,5);
+
+        int [] arr = {3, -5, 20};
+        try {
+            System.out.println(arr[5]);
+        }
+        catch (Exception e) {
+            System.out.println("ელემენტი არ იძებნება");
+        }
+        finally {
+            System.out.println("ეს ყოველთვის სრულდება");
+        }
     }
 }
 

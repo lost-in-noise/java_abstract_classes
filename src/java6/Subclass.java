@@ -5,7 +5,9 @@ public class Subclass implements InterfaceTest, Interface2 {
     public void printName() {
         System.out.println("My name is Lola");
     }
-    public void gamravleba(int a, int b) {
-        System.out.println(a * b);
+
+    public void gamravleba(int i, int i1) {
+        System.out.println(i * i1);
     }
+
 }
